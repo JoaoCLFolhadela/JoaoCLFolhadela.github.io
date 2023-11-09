@@ -10980,8 +10980,8 @@ section.resume-section .resume-section-content {
 .date-and-image img {
   display: block;
   width: 300px;
-  height: auto;
-  margin-top: 10px; /* Adjust as needed for spacing */
+  height: 10px;
+  margin-top: 5px; /* Adjust as needed for spacing */
 }
 
 

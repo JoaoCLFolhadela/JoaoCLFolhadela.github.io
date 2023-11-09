@@ -10981,7 +10981,7 @@ section.resume-section .resume-section-content {
   display: block;
   width: 300px;
   height: auto;
-  margin-top: 10px; /* Adjust as needed for spacing */
+  margin-top: 0px; /* Adjust as needed for spacing */
 }
 
 

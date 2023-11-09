@@ -11032,7 +11032,7 @@ ol.custom-list li, ol.custom-list li span, ol.custom-list li a {
 }
 
 .resume-section-image-mscthesis {
-  width:50%; /* Adjust as needed, image takes less space */
+  width: 40%; /* Adjust as needed, image takes less space */
   /* Styles to center the image if necessary */
   display: flex; /* Use flex to center image */
   justify-content: center; /* Center image horizontally */

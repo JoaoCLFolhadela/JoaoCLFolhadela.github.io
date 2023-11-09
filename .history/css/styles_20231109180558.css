@@ -11021,26 +11021,18 @@ ol.custom-list li, ol.custom-list li span, ol.custom-list li a {
   width: 100%; /* Take full width to align with the content above */
 }
 
-.lead {
-  margin-bottom: 0; /* Removes the bottom margin */
-}
-
 .custom-list {
-  padding-left: 0; /* Removes default padding */
-  list-style-position: inside; /* Adjusts bullet position */
-  /* Add list-style-type if needed, e.g., disc, decimal */
+  width: 60%; /* Adjust as needed, list takes more space */
+  /* Other styles for the list */
 }
 
 .resume-section-image-mscthesis {
-  width:50%; /* Adjust as needed, image takes less space */
+  width: 40%; /* Adjust as needed, image takes less space */
   /* Styles to center the image if necessary */
-  display: flex; /* Use flex to center image */
-  justify-content: center; /* Center image horizontally */
-  align-items: center; /* Center image vertically */
 }
 
 .resume-section-image-mscthesis img {
-  width: 80%; /* Use either width or height to maintain aspect ratio */
-  /* height: auto; Uncomment if you want to control the height instead */
-  /* Remove height to maintain the aspect ratio */
+  width: 70%; /* Adjust the width as necessary */
+  height: 60%; /* Maintain the aspect ratio of the image */
 }
+

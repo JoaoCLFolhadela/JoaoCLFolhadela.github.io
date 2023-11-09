@@ -11003,44 +11003,24 @@ ol.custom-list li, ol.custom-list li span, ol.custom-list li a {
 
 .resume-section-mscthesis {
   display: flex;
-  flex-direction: column; /* Stack content and the list/image container on top of each other */
-  align-items: flex-start; /* Align items to the start of the flex container */
-  padding: 5rem 1rem;
+  align-items: flex-start;
+  justify-content: space-between; /* or use 'flex-start' if you don't want them at opposite ends */
+  padding: 5rem 1rem; /* Shorthand for padding top & bottom | left & right */
   max-width: 75rem;
 }
 
 .resume-section-mscthesis .resume-section-content {
-  width: 100%; /* Full width */
-  /* Other styles remain the same */
+  width: 60%; /* Adjust as needed */
 }
 
-.resume-listing-with-image {
+.resume-section-mscthesis .resume-section-image-mscthesis {
+  width: 40%; /* Adjust as needed */
   display: flex;
-  justify-content: space-between; /* Space out list and image */
-  align-items: flex-end; /* Align the items to the bottom */
-  width: 100%; /* Take full width to align with the content above */
+  align-items: center;
+  justify-content: center;
 }
 
-.lead {
-  margin-bottom: 0; /* Removes the bottom margin */
-}
-
-.custom-list {
-  padding-left: 0; /* Removes default padding */
-  list-style-position: inside; /* Adjusts bullet position */
-  /* Add list-style-type if needed, e.g., disc, decimal */
-}
-
-.resume-section-image-mscthesis {
-  width:50%; /* Adjust as needed, image takes less space */
-  /* Styles to center the image if necessary */
-  display: flex; /* Use flex to center image */
-  justify-content: center; /* Center image horizontally */
-  align-items: center; /* Center image vertically */
-}
-
-.resume-section-image-mscthesis img {
-  width: 80%; /* Use either width or height to maintain aspect ratio */
-  /* height: auto; Uncomment if you want to control the height instead */
-  /* Remove height to maintain the aspect ratio */
+.resume-section-mscthesis .resume-section-image-mscthesis img {
+  width: 100%; /* You may want to set a max-width */
+  height: auto;
 }

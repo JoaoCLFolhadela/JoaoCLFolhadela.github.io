@@ -11040,7 +11040,7 @@ ol.custom-list li, ol.custom-list li span, ol.custom-list li a {
 }
 
 .resume-section-image-mscthesis img {
-  width: 80%; /* Use either width or height to maintain aspect ratio */
+  width: 83%; /* Use either width or height to maintain aspect ratio */
   /* height: auto; Uncomment if you want to control the height instead */
   /* Remove height to maintain the aspect ratio */
 }

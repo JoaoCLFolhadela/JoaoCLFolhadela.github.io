@@ -11016,7 +11016,7 @@ ol.custom-list li, ol.custom-list li span, ol.custom-list li a {
 .resume-section-image-mscthesis img {
   width: 100%; /* This will make the image responsive, filling the width of its container */
   height: auto; /* This will maintain the aspect ratio */
-  max-width: 350px; /* Set a max-width that fits your design */
+  max-width: 550px; /* Set a max-width that fits your design */
   /* You can also use max-height if you want to control the height instead */
 }
 
@@ -11048,7 +11048,7 @@ ol.custom-list li, ol.custom-list li span, ol.custom-list li a {
 }
 
 .resume-section-image-mscthesis {
-  width:50%; /* Adjust as needed, image takes less space */
+  width:60%; /* Adjust as needed, image takes less space */
   /* Styles to center the image if necessary */
   display: flex; /* Use flex to center image */
   justify-content: center; /* Center image horizontally */

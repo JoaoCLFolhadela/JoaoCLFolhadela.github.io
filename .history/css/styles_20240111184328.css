@@ -11007,8 +11007,17 @@ ol.custom-list li, ol.custom-list li span, ol.custom-list li a {
   display: flex;
   flex-direction: column; /* Stack content and the list/image container on top of each other */
   align-items: flex-start; /* Align items to the start of the flex container */
+  justify-content: space-between;
   padding: 5rem 1rem;
-  max-width: 75rem;
+  max-width: 65rem;
+  margin-right: auto;
+}
+
+.resume-section-image-mscthesis img {
+  width: 100%; /* This will make the image responsive, filling the width of its container */
+  height: auto; /* This will maintain the aspect ratio */
+  max-width: 350px; /* Set a max-width that fits your design */
+  /* You can also use max-height if you want to control the height instead */
 }
 
 .resume-section-mscthesis .resume-section-content {
@@ -11018,9 +11027,14 @@ ol.custom-list li, ol.custom-list li span, ol.custom-list li a {
 
 .resume-listing-with-image {
   display: flex;
-  justify-content: space-between; /* Space out list and image */
-  align-items: flex-end; /* Align the items to the bottom */
-  width: 100%; /* Take full width to align with the content above */
+  justify-content: space-between;
+  align-items: flex-start; /* Align the items to the top to match the top of the list */
+  width: 100%;
+  margin-right: auto; /* Make sure the container itself isn't pushed to the right */
+}
+
+.resume-listing-with-image .resume-section-image-mscthesis {
+  margin-left: auto; /* Push the image to the right */
 }
 
 .lead {
@@ -11034,7 +11048,7 @@ ol.custom-list li, ol.custom-list li span, ol.custom-list li a {
 }
 
 .resume-section-image-mscthesis {
-  width:50%; /* Adjust as needed, image takes less space */
+  width:60%; /* Adjust as needed, image takes less space */
   /* Styles to center the image if necessary */
   display: flex; /* Use flex to center image */
   justify-content: center; /* Center image horizontally */
